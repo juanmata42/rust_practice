@@ -1,3 +1,9 @@
+new project
 cargo new HelloWorld
+
+(no git)
+cargo new --vcs=none
+
+
 cargo build
 cargo run
