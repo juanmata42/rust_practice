@@ -5,10 +5,12 @@ mod structs;
 mod enums;
 mod unions;
 mod optiont_iflet_whilelet;
+mod arrays;
 
 fn main() {
     structs::structs();
     enums::enums();
     unions::unions();
     optiont_iflet_whilelet::options();
+    arrays::arrays();
 }
