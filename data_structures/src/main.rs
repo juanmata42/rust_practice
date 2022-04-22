@@ -6,6 +6,8 @@ mod enums;
 mod unions;
 mod optiont_iflet_whilelet;
 mod arrays;
+mod slices;
+mod tuples;
 
 fn main() {
     structs::structs();
@@ -13,4 +15,6 @@ fn main() {
     unions::unions();
     optiont_iflet_whilelet::options();
     arrays::arrays();
+    slices::slices();
+    tuples::tuples();
 }
