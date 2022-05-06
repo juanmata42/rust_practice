@@ -8,6 +8,7 @@ mod optiont_iflet_whilelet;
 mod arrays;
 mod slices;
 mod tuples;
+mod pattern_matching;
 
 fn main() {
     structs::structs();
@@ -17,4 +18,5 @@ fn main() {
     arrays::arrays();
     slices::slices();
     tuples::tuples();
+    pattern_matching::pattern_matching();
 }
