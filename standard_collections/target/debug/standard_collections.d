@@ -1,0 +1,1 @@
+/home/juanma42/Documentos/programacion\ practica/rust_practice/standard_collections/target/debug/standard_collections: /home/juanma42/Documentos/programacion\ practica/rust_practice/standard_collections/src/main.rs
