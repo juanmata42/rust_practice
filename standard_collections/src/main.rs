@@ -10,12 +10,11 @@ fn vectors() {
     a[idx] = 312;
     println!("a[0] = {}", a[idx]);
     //option
-    match a.get(6) {
-        Some(x) => println!("a[6] = {}", x),
+    match a.get(1) {
+        Some(x) => println!("a[1] = {}", x),
         None => println!("a[6] is not defined"),
     }
 }
-
 fn main() {
     vectors();
 }
