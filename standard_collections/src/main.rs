@@ -14,6 +14,9 @@ fn vectors() {
         Some(x) => println!("a[1] = {}", x),
         None => println!("a[6] is not defined"),
     }
+    for x in &a {
+        println!("{}", x);
+    }
 }
 fn main() {
     vectors();
